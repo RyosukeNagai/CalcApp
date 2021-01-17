@@ -8,12 +8,18 @@
 import UIKit
 
 class ViewController: UIViewController {
+    
+    var carModel = Car()
 
     override func viewDidLoad() {
         super.viewDidLoad()
-        // Do any additional setup after loading the view.
+        
+        carModel.drive()
+        
     }
 
-
+    @IBAction func doAction(_ sender: Any) {
+    }
+    
 }
 

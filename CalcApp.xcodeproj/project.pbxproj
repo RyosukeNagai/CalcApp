@@ -13,6 +13,7 @@
 		CD4FCA0425B48F4700BA7EF0 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CD4FCA0225B48F4700BA7EF0 /* Main.storyboard */; };
 		CD4FCA0625B48F4900BA7EF0 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CD4FCA0525B48F4900BA7EF0 /* Assets.xcassets */; };
 		CD4FCA0925B48F4900BA7EF0 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CD4FCA0725B48F4900BA7EF0 /* LaunchScreen.storyboard */; };
+		CD4FCA1425B490BA00BA7EF0 /* Car.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD4FCA1325B490BA00BA7EF0 /* Car.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +25,7 @@
 		CD4FCA0525B48F4900BA7EF0 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		CD4FCA0825B48F4900BA7EF0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		CD4FCA0A25B48F4900BA7EF0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CD4FCA1325B490BA00BA7EF0 /* Car.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Car.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +58,7 @@
 		CD4FC9FB25B48F4700BA7EF0 /* CalcApp */ = {
 			isa = PBXGroup;
 			children = (
+				CD4FCA1225B4909300BA7EF0 /* Model */,
 				CD4FC9FC25B48F4700BA7EF0 /* AppDelegate.swift */,
 				CD4FC9FE25B48F4700BA7EF0 /* SceneDelegate.swift */,
 				CD4FCA0025B48F4700BA7EF0 /* ViewController.swift */,
@@ -65,6 +68,14 @@
 				CD4FCA0A25B48F4900BA7EF0 /* Info.plist */,
 			);
 			path = CalcApp;
+			sourceTree = "<group>";
+		};
+		CD4FCA1225B4909300BA7EF0 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				CD4FCA1325B490BA00BA7EF0 /* Car.swift */,
+			);
+			path = Model;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -139,6 +150,7 @@
 			files = (
 				CD4FCA0125B48F4700BA7EF0 /* ViewController.swift in Sources */,
 				CD4FC9FD25B48F4700BA7EF0 /* AppDelegate.swift in Sources */,
+				CD4FCA1425B490BA00BA7EF0 /* Car.swift in Sources */,
 				CD4FC9FF25B48F4700BA7EF0 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
